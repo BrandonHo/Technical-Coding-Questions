@@ -6,7 +6,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        // TestMicOA();
+        TestMicOA();
         // TestAmaOA2NG();
         // TestAmaOS();
         // TestAmaO2I();
@@ -15,8 +15,8 @@ public class App {
 
     public static void TestMicOA()
     {
-        // MinDeletionsToGoodString test = new MinDeletionsToGoodString();
-        // test.Test();
+        MinDeletionsToGoodString test = new MinDeletionsToGoodString();
+        test.Test();
     }
 
     public static void TestAmaOS()
