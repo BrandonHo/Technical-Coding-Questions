@@ -6,11 +6,11 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        TestMicOA();
+        // TestMicOA();
         // TestAmaOA2NG();
         // TestAmaOS();
         // TestAmaO2I();
-        // TestRandomExercises();
+        TestRandomExercises();
     }
 
     public static void TestMicOA()
@@ -98,6 +98,9 @@ public class App {
 
         // Fibonacci test = new Fibonacci();
         // test.Test();
+
+        NextGreatestElement1 test = new NextGreatestElement1();
+        test.Test();
     }
 
     public static void TestAmaOA2NG() {
