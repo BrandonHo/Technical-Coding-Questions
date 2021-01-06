@@ -99,7 +99,19 @@ public class App {
         // Fibonacci test = new Fibonacci();
         // test.Test();
 
-        NextGreatestElement1 test = new NextGreatestElement1();
+        // NextGreatestElement1 test = new NextGreatestElement1();
+        // test.Test();
+
+        // NextGreatestElement2 test = new NextGreatestElement2();
+        // test.Test();
+
+        // NextGreatestElement3 test = new NextGreatestElement3();
+        // test.Test();
+
+        // BinarySearch test = new BinarySearch();
+        // test.Test();
+
+        FindMedianFromDataStream test = new FindMedianFromDataStream();
         test.Test();
     }
 
