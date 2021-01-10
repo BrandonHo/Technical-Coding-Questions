@@ -111,7 +111,10 @@ public class App {
         // BinarySearch test = new BinarySearch();
         // test.Test();
 
-        FindMedianFromDataStream test = new FindMedianFromDataStream();
+        // FindMedianFromDataStream test = new FindMedianFromDataStream();
+        // test.Test();
+
+        LastSubstringInLexicographicalOrder test = new LastSubstringInLexicographicalOrder();
         test.Test();
     }
 
