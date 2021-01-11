@@ -6,16 +6,22 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        // TestMicOA();
+        TestMicOA();
         // TestAmaOA2NG();
         // TestAmaOS();
         // TestAmaO2I();
-        TestRandomExercises();
+        // TestRandomExercises();
     }
 
     public static void TestMicOA()
     {
-        MinDeletionsToGoodString test = new MinDeletionsToGoodString();
+        // MinDeletionsToGoodString test = new MinDeletionsToGoodString();
+        // test.Test();
+
+        // CountGoodNodesInBinaryTree test = new CountGoodNodesInBinaryTree();
+        // test.Test();
+
+        LargestXNumberThatOccursXTimes test = new LargestXNumberThatOccursXTimes();
         test.Test();
     }
 
@@ -114,8 +120,8 @@ public class App {
         // FindMedianFromDataStream test = new FindMedianFromDataStream();
         // test.Test();
 
-        LastSubstringInLexicographicalOrder test = new LastSubstringInLexicographicalOrder();
-        test.Test();
+        // LastSubstringInLexicographicalOrder test = new LastSubstringInLexicographicalOrder();
+        // test.Test();
     }
 
     public static void TestAmaOA2NG() {
