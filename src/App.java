@@ -24,7 +24,10 @@ public class App {
         // LargestXNumberThatOccursXTimes test = new LargestXNumberThatOccursXTimes();
         // test.Test();
 
-        NUniqueIntegersSumToZero test = new NUniqueIntegersSumToZero();
+        // NUniqueIntegersSumToZero test = new NUniqueIntegersSumToZero();
+        // test.Test();
+
+        MaxLengthOfStringWithUniqueChars test = new MaxLengthOfStringWithUniqueChars();
         test.Test();
     }
 
