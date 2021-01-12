@@ -21,7 +21,10 @@ public class App {
         // CountGoodNodesInBinaryTree test = new CountGoodNodesInBinaryTree();
         // test.Test();
 
-        LargestXNumberThatOccursXTimes test = new LargestXNumberThatOccursXTimes();
+        // LargestXNumberThatOccursXTimes test = new LargestXNumberThatOccursXTimes();
+        // test.Test();
+
+        NUniqueIntegersSumToZero test = new NUniqueIntegersSumToZero();
         test.Test();
     }
 
