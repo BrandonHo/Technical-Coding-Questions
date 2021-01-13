@@ -27,7 +27,10 @@ public class App {
         // NUniqueIntegersSumToZero test = new NUniqueIntegersSumToZero();
         // test.Test();
 
-        MaxLengthOfStringWithUniqueChars test = new MaxLengthOfStringWithUniqueChars();
+        // MaxLengthOfStringWithUniqueChars test = new MaxLengthOfStringWithUniqueChars();
+        // test.Test();
+
+        DayOfWeekKDaysLater test = new DayOfWeekKDaysLater();
         test.Test();
     }
 
