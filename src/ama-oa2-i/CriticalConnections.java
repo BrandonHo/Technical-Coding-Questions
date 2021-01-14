@@ -55,6 +55,13 @@ public class CriticalConnections {
             System.out.println("[" + connection.get(0) + "," + connection.get(1) + "]");
     }
 
+    /*
+        Time Complexity: O(m) [adding m connections to hash map] + O(m) [DFS],
+        or ~O(m), where m refers to the number of connections.
+
+        Space Complexity: O(n.n), [n nodes, n-1 values in set], where n refers to the number
+        of nodes.
+    */
     public List<List<Integer>> FindCriticalConnections(int n, List<List<Integer>> connections) {
 
         List<List<Integer>> critConns = new ArrayList<List<Integer>>();
@@ -75,15 +82,18 @@ public class CriticalConnections {
         }
 
         int step = 1;
+        int startChildNodeVal = 1;
         GraphNode dummyNode = new GraphNode(-1);
 
-        // Start from graph node with number 0
-        DFS(critConns, step, dummyNode, graph.get(1));
+        // Start from graph node with specified startChildNodeVal
+        DFS(critConns, step, dummyNode, graph.get(startChildNodeVal));
 
         return critConns;
     }
 
     public int DFS(List<List<Integer>> critConns, int step, GraphNode parent, GraphNode child) {
+
+        // Has the child been visited before? return its path step.
         if (child.pathStep != 0)
             return child.pathStep;
 
