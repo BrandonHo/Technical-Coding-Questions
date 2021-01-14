@@ -30,7 +30,10 @@ public class App {
         // MaxLengthOfStringWithUniqueChars test = new MaxLengthOfStringWithUniqueChars();
         // test.Test();
 
-        DayOfWeekKDaysLater test = new DayOfWeekKDaysLater();
+        // DayOfWeekKDaysLater test = new DayOfWeekKDaysLater();
+        // test.Test();
+
+        LexicographicallySmallestString test = new LexicographicallySmallestString();
         test.Test();
     }
 
